@@ -33,19 +33,19 @@ All **40 screenshots** are displayed **directly and always visible**, in chronol
 
 ### Confirm the account and configure the lockout policy
 
-**01. Locate a sample AD employee account**
+**01. Locate a sample AD employee account.**
 
 Locate the generated `bame.siv` user in Active Directory Users and Computers.
 
 ![Screenshot 01: Locate a sample AD employee account](screenshots/01-locate-a-sample-ad-employee-account.jpg)
 
-**02. Test a bad-password RDP sign-in**
+**02. Test a bad-password RDP sign-in.**
 
 Submit an intentionally incorrect password for the lab employee account.
 
 ![Screenshot 02: Test a bad-password RDP sign-in](screenshots/02-test-a-bad-password-rdp-sign-in.jpg)
 
-**03. Observe an authentication failure after trying to login 10 times with an incorrect password**
+**03. Observe an authentication failure after trying to login 10 times with an incorrect password.**
 
 Windows App rejects the incorrect credentials.
 
@@ -58,7 +58,7 @@ Reason: The account lockout policy is not set in AD, so we are going to configur
 
 ![Screenshot 04: Inspect the employee client session](screenshots/04-inspect-the-employee-client-session.jpg)
 
-**05. Open Group Policy Management**
+**05. Open Group Policy Management.**
 
 Launch the GPMC console against the lab domain.
 
