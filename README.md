@@ -45,15 +45,16 @@ Submit an intentionally incorrect password for the lab employee account.
 
 ![Screenshot 02: Test a bad-password RDP sign-in](screenshots/02-test-a-bad-password-rdp-sign-in.jpg)
 
-**03. Observe an authentication failure**
+**03. Observe an authentication failure after trying to login 10 times with an incorrect password**
 
 Windows App rejects the incorrect credentials.
 
 ![Screenshot 03: Observe an authentication failure](screenshots/03-observe-an-authentication-failure.jpg)
 
-**04. Inspect the employee client session**
+**04. Now, we tried to login with a correct password, hoping that the account is now locked after 10 failed login attempts.
+However, we are able to login sucessfully**
 
-Review the Windows 11 workstation during the account-security test.
+Reason: The account lockout policy is not set in AD, so we are going to configure Group Policy for that.
 
 ![Screenshot 04: Inspect the employee client session](screenshots/04-inspect-the-employee-client-session.jpg)
 
