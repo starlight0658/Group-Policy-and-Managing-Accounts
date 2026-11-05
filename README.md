@@ -55,7 +55,7 @@ Reason: The account lockout policy is not set in AD, so we are going to configur
 
 **05. Open Group Policy Management in the Domain Controller DC-1.**
 
-Launch the GPMC console against the lab domain (Click Start, )
+Launch the GPMC console against the lab domain (Click "Windows" icon > Run > gpmc.msc > OK)
 
 ![Screenshot 05: Open Group Policy Management](screenshots/05-open-group-policy-management.jpg)
 
