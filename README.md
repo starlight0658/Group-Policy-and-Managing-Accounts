@@ -51,8 +51,8 @@ Windows App rejects the incorrect credentials.
 
 ![Screenshot 03: Observe an authentication failure](screenshots/03-observe-an-authentication-failure.jpg)
 
-**04. Now, we tried to login with a correct password, hoping that the account is now locked after 10 failed login attempts.
-However, we are able to login sucessfully**
+**04. Now, we tried to login with the correct password, hoping that the account is now locked after 10 failed login attempts.
+However, we are able to login sucessfully.**
 
 Reason: The account lockout policy is not set in AD, so we are going to configure Group Policy for that.
 
