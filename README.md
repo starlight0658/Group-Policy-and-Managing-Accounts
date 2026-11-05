@@ -27,11 +27,6 @@ Configured an account-lockout policy for an Azure-hosted Active Directory test d
 4. **User administration:** Practiced account disable, enable, and password-reset workflows; observed the corresponding Active Directory confirmations and disabled-account RDP error. Validated a domain-user session with `whoami`.
 5. **Event investigation:** Reviewed Windows Security logs on `DC-1` and `Client-1`, including **Event ID 4625** (failed logon), **4776** (credential validation), and **4634** (logoff). Examined the affected username and authentication status in event details.
 
-## Screenshot walkthrough
-
-All **40 screenshots** are displayed **directly and always visible**, in chronological screenshot-capture order. No collapsible sections or expand arrows. The original image files are provided in [`screenshots/`](screenshots/).
-
-### Confirm the account and configure the lockout policy
 
 **01. Locate a sample AD employee account.**
 
