@@ -169,7 +169,10 @@ Run `whoami` in PowerShell and confirm `mydomain\bame.siv`.
 
 Use ADUC to disable the sample account for the lifecycle-management exercise.
 
-![Screenshot 23: Disable the employee account](screenshots/23-disable-the-employee-account.jpg)
+![Screenshot 25: Re-enable the employee account](screenshots/25-re-enable-the-employee-account.jpg)
+
+![Screenshot 26: Verify account re-enablement](screenshots/26-verify-account-re-enablement.jpg)
+
 
 **24. Confirm the account has been disabled**
 
@@ -181,13 +184,13 @@ Verify the Active Directory success message for the disable action.
 
 Use the directory context menu to enable the user again.
 
-![Screenshot 25: Re-enable the employee account](screenshots/25-re-enable-the-employee-account.jpg)
+
 
 **26. Verify account re-enablement**
 
 Confirm the Active Directory success message for enabling the account.
 
-![Screenshot 26: Verify account re-enablement](screenshots/26-verify-account-re-enablement.jpg)
+
 
 **27. Validate the disabled-account sign-in restriction**
 
@@ -198,6 +201,8 @@ Capture the RDP error produced during the disabled-account access test.
 **28. Start the password reset workflow**
 
 Locate **Reset Password** for the selected employee account.
+
+![Screenshot 23: Disable the employee account](screenshots/23-disable-the-employee-account.jpg)
 
 ![Screenshot 28: Start the password reset workflow](screenshots/28-start-the-password-reset-workflow.jpg)
 
