@@ -289,15 +289,3 @@ whoami                  # Verify signed-in domain identity
 gpmc.msc                # Group Policy Management
 eventvwr.msc            # Event Viewer
 ```
-
-## Security and operational notes
-
-- **Lab scope:** Changes were made in the disposable `mydomain.com` training environment. In production, changing the Default Domain Policy requires formal change control; use appropriate domain account policy and fine-grained password policy design.
-- **Authentication evidence:** Event 4625 represents failed logon attempts; 4776 relates to credential validation and 4634 to logoff. Interpret individual events in context before attributing a cause or user intent.
-- **Sensitive data:** Screenshots intentionally show lab-only users, public test-VM IP addresses, and some typed example passwords. **Do not reuse these credentials**; rotate them or delete the lab accounts before exposing the repository publicly. For a persistent lab, redact actual secrets before publication.
-- **Access restoration:** Disabling an account and locking an account are different controls. Re-enabling a disabled account does not automatically clear every lockout condition.
-- **Cost control:** Retain the lab VMs for later exercises as needed; stop/deallocate unused Azure VMs to avoid unnecessary charges.
-
-## Outcome
-
-Demonstrated an end-to-end Windows identity administration workflow: **configure → deploy → validate → reproduce an access problem → recover the account → review audit evidence**. Relevant to junior IT support, Windows administration, and entry-level IAM/GRC work.
