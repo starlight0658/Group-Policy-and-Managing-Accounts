@@ -178,22 +178,22 @@ Verify the Active Directory success message for the disable action.
 
 ![Screenshot 26: Verify account re-enablement](screenshots/26-verify-account-re-enablement.jpg)
 
-
-**25. Re-enable the employee account**
-
-Use the directory context menu to enable the user again.
-
-
-**26. Verify account re-enablement**
-
-Confirm the Active Directory success message for enabling the account.
-
-
-**27. Validate the disabled-account sign-in restriction**
+**25. Validate the disabled-account sign-in restriction**
 
 Capture the RDP error produced during the disabled-account access test.
 
 ![Screenshot 27: Validate the disabled-account sign-in restriction](screenshots/27-validate-the-disabled-account-sign-in-restriction.jpg)
+
+**26. Re-enable the employee account**
+
+Use the directory context menu to enable the user again.
+
+
+**27. Verify account re-enablement**
+
+Confirm the Active Directory success message for enabling the account.
+
+
 
 **28. Start the password reset workflow**
 
