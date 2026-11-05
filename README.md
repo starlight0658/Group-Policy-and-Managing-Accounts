@@ -211,7 +211,7 @@ Locate **Reset Password** for the selected employee account.
 
 
 
-**30. Review the active user session**
+**30. Confirm that the user login with new password is successful**
 
 Confirm the account remains recognizable on the Windows client during account management.
 
