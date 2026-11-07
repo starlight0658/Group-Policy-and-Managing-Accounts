@@ -109,7 +109,7 @@ Opened Command line by clicking Windows icon, then typed cmd and opened Command 
 
 **14. Confirmed the applied Group Policy**
 
-The I opened Command Prompt in Administrative Mode by clicking Windows icon, typed cmd and chose Command Prompt in Admin mode. Then I run `gpresult /r` to identify the applied Default Domain Policy on `Client-1`.
+Then I opened Command Prompt in Administrative Mode by clicking Windows icon, typed cmd and chose Command Prompt in Admin mode. Then I run `gpresult /r` to identify the applied Default Domain Policy on `Client-1`.
 
 ![Screenshot 14: Confirm the applied Group Policy](screenshots/14-confirm-the-applied-group-policy.jpg)
 
