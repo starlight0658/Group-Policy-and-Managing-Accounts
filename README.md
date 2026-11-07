@@ -97,7 +97,7 @@ Clicked on "Default Domain Policy" and then "Settings" in the right menu. Review
 
 ### Applied the GPO and reproduced account lockout
 
-**12. Reconnected with the DC-1 domain as administrator**
+**12. Reconnected with the Client-1 as administrator**
 
 ![Screenshot 12: Reconnect with the domain administrator](screenshots/12-reconnect-with-the-domain-administrator.jpg)
 
