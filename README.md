@@ -71,9 +71,9 @@ Selected **Edit** to configure domain account policy settings.
 
 ![Screenshot 07: Open the policy editor](screenshots/07-open-the-policy-editor.jpg)
 
-**08. Inspected the existing Account Lockout Policy**
+**08. Navigated to the existing Account Lockout Policy**
 
-Reviewed the pre-change lockout settings, including the initially zero invalid-logon threshold.
+Expanded in the following order: Computer Configuration>Policies>Windows Settings>Security Settings>Account Policies>Account Lockout Policy.
 
 ![Screenshot 08: Inspect the existing Account Lockout Policy](screenshots/08-inspect-the-existing-account-lockout-policy.jpg)
 
