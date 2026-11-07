@@ -103,13 +103,13 @@ Clicked on "Default Domain Policy" and then "Settings" in the right menu. Review
 
 **13. Forced a client Group Policy refresh**
 
-Run `gpupdate /force`; computer and user policy updates report success.
+Opened Command line in Administrative Mode by clicking Windows icon, then typed cmd and opened Command line in Admin mode, then Run `gpupdate /force`; observed computer and user policy updates report success.
 
 ![Screenshot 13: Force a client Group Policy refresh](screenshots/13-force-a-client-group-policy-refresh.jpg)
 
 **14. Confirmed the applied Group Policy**
 
-Run `gpresult /r` to identify the applied Default Domain Policy on `Client-1`.
+The I run `gpresult /r` to identify the applied Default Domain Policy on `Client-1`.
 
 ![Screenshot 14: Confirm the applied Group Policy](screenshots/14-confirm-the-applied-group-policy.jpg)
 
