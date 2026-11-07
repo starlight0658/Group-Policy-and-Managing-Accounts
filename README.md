@@ -79,13 +79,13 @@ Expanded in the following order: Computer Configuration>Policies>Windows Setting
 
 **09. Configured the 30-minute lockout duration**
 
-Set the period that a locked account stays locked before automatic release.
+Double clicked on "Account lockout duration" and set the period that a locked account stays locked before automatic release - 30 minutes.
 
 ![Screenshot 09: Configure the 30-minute lockout duration](screenshots/09-configure-the-30-minute-lockout-duration.jpg)
 
 **10. Set a five-attempt lockout threshold**
 
-Defined the account-lockout threshold as five invalid logon attempts.
+Double clicked on Account lockout threshold and set the account-lockout threshold as 5 invalid logon attempts.
 
 ![Screenshot 10: Set a five-attempt lockout threshold](screenshots/10-set-a-five-attempt-lockout-threshold.jpg)
 
