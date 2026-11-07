@@ -91,7 +91,7 @@ Double clicked on Account lockout threshold and set the account-lockout threshol
 
 **11. Verifed the configured domain lockout policy**
 
-Reviewed the resulting policy settings: 5 attempts, 30-minute lockout duration, and 10-minute counter reset.
+Clicked on "Default Domain Policy" and then "Settings" in the right menu. Reviewed the resulting policy settings: 5 attempts, 30-minute lockout duration, and 10-minute counter reset.
 
 ![Screenshot 11: Verify the configured domain lockout policy](screenshots/11-verify-the-configured-domain-lockout-policy.jpg)
 
