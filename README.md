@@ -247,7 +247,7 @@ Searched for `bame` and inspected matching account activity such as Event ID 463
 
 **36. Opened Event Viewer on the Client-1**
 
-Inspected the client computer’s local event log console.
+Inspected the Client-1 computer’s local event log console. However, I didn't have access to Security Logs as a User. So next, I had to run the `eventvwr.msc` in the seatrch bar and locate "Run as administrator".
 
 ![Screenshot 35: Open Event Viewer on the client](screenshots/35-open-event-viewer-on-the-client.jpg)
 
