@@ -127,9 +127,9 @@ RDP reported the account is locked after 5 sign-in/password attempts.
 
 ### Unlock, disable, enable, and reset a domain account
 
-**17. Found the affected user in ADUC**
+**17. Found the affected user in ADUC in DC-1**
 
-Used the directory search workflow to locate `bame.siv` for remediation.
+Used the directory search workflow to locate `bame.siv` for remediation. (In DC-1 open Active Directory Users and Computers, right click on mydomain.com > Find)
 
 ![Screenshot 17: Find the affected user in ADUC](screenshots/17-find-the-affected-user-in-aduc.jpg)
 
@@ -141,19 +141,19 @@ Found the target employee account among matching users.
 
 **19. Inspected the locked account properties**
 
-Examined the Account tab and its account-lockout controls.
+Examined the Account tab and its account-lockout controls. It showed unckecked box near "Unlock Account. The account is currenlty locked..".
 
 ![Screenshot 19: Inspect the locked account properties](screenshots/19-inspect-the-locked-account-properties.jpg)
 
 **20. Unlocked the account**
 
-Selected the unlock option and applied the change in ADUC.
+Selected the box Unlock Account and clicked Apply and then OK.
 
 ![Screenshot 20: Unlock the account](screenshots/20-unlock-the-account.jpg)
 
 **21. Tested the valid domain-user password**
 
-Retried authentication with the lab user’s normal test password.
+Tried again to log in with the lab user’s normal test password in Client-1.
 
 ![Screenshot 21: Test the valid domain-user password](screenshots/21-test-the-valid-domain-user-password.jpg)
 
