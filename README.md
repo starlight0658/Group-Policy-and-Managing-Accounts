@@ -235,17 +235,17 @@ Expanded: Window Logs > Security
 
 **34. Located the Security log search tool**
 
-Used the Event Viewer Find control for targeted security-event investigation.
+Right click on Security > Find
 
 ![Screenshot 33: Locate the Security log search tool](screenshots/33-locate-the-security-log-search-tool.jpg)
 
 **35. Searched domain-controller events for the employee**
 
-Searched for `bame` and inspect matching account activity such as Event ID 4634.
+Searched for `bame` and inspected matching account activity such as Event ID 4634. Could not locate the Failed Login Attempt Logs. So the next step was to login to Client-1 machine to find those logs.
 
 ![Screenshot 34: Search domain-controller events for the employee](screenshots/34-search-domain-controller-events-for-the-employee.jpg)
 
-**36. Opened Event Viewer on the client**
+**36. Opened Event Viewer on the Client-1**
 
 Inspected the client computer’s local event log console.
 
