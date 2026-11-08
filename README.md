@@ -212,64 +212,70 @@ Observed the Active Directory success message for enabling the account.
 
 ![Screenshot 29: Inspect password reset and unlock options](screenshots/29-inspect-password-reset-and-unlock-options.jpg)
 
+**31. Confirmed that the user login is successful after it was re-enabled**
 
-### Reviewed authentication and security audit logs
+Logged in with users name and password and confirmed a successfull login.
 
-**31. Launched Windows Event Viewer**
+![Screenshot 30: Review the active user session](screenshots/30-review-the-active-user-session.jpg)
 
-Located `eventvwr.msc` for the next audit-evidence stage.
+
+### Observed logs
+
+**32. Launched Windows Event Viewer**
+
+Located Event Viewer in DC-1 by typing `eventvwr.msc` in DC-1 .
 
 ![Screenshot 31: Launch Windows Event Viewer](screenshots/31-launch-windows-event-viewer.jpg)
 
-**32. Inspected domain-controller security events**
+**33. Inspected domain-controller security events**
 
 Opened the Security log on `DC-1`; noted logon and credential-validation activity.
 
 ![Screenshot 32: Inspect domain-controller security events](screenshots/32-inspect-domain-controller-security-events.jpg)
 
-**33. Located the Security log search tool**
+**34. Located the Security log search tool**
 
 Used the Event Viewer Find control for targeted security-event investigation.
 
 ![Screenshot 33: Locate the Security log search tool](screenshots/33-locate-the-security-log-search-tool.jpg)
 
-**34. Searched domain-controller events for the employee**
+**35. Searched domain-controller events for the employee**
 
 Searched for `bame` and inspect matching account activity such as Event ID 4634.
 
 ![Screenshot 34: Search domain-controller events for the employee](screenshots/34-search-domain-controller-events-for-the-employee.jpg)
 
-**35. Opened Event Viewer on the client**
+**36. Opened Event Viewer on the client**
 
 Inspected the client computer’s local event log console.
 
 ![Screenshot 35: Open Event Viewer on the client](screenshots/35-open-event-viewer-on-the-client.jpg)
 
-**36. Started Event Viewer with elevation**
+**37. Started Event Viewer with elevation**
 
 Choose **Run as administrator** to access protected event logs.
 
 ![Screenshot 36: Start Event Viewer with elevation](screenshots/36-start-event-viewer-with-elevation.jpg)
 
-**37. Authorized the administrative tool**
+**38. Authorized the administrative tool**
 
 Used User Account Control to elevate Microsoft Management Console.
 
 ![Screenshot 37: Authorize the administrative tool](screenshots/37-authorize-the-administrative-tool.jpg)
 
-**38. Reviewed the client Event Viewer console**
+**39. Reviewed the client Event Viewer console**
 
 Navigated to Windows Logs for local authentication-event evidence.
 
 ![Screenshot 38: Review the client Event Viewer console](screenshots/38-review-the-client-event-viewer-console.jpg)
 
-**39. Inspected failed logon audit events**
+**40. Inspected failed logon audit events**
 
 Selected Security Event ID 4625, indicating a failed account logon.
 
 ![Screenshot 39: Inspect failed logon audit events](screenshots/39-inspect-failed-logon-audit-events.jpg)
 
-**40. Reviewed the failed-logon event details**
+**41. Reviewed the failed-logon event details**
 
 Inspected Event 4625 for `bame.siv`, including authentication failure data and network source.
 
