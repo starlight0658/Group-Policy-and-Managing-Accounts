@@ -184,7 +184,7 @@ Logged in with the new password and confirmed successfull login.
 
 **26. Disabled the employee account**
 
-Used ADUC to disable the sample account for the lifecycle-management exercise.
+Used ADUC to disable the sample account for the lifecycle-management exercise. Located and pressed "Disable Account".
 
 ![Screenshot 25: Re-enable the employee account](screenshots/25-re-enable-the-employee-account.jpg)
 
