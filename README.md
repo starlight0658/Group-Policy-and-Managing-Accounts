@@ -115,13 +115,13 @@ Then I opened Command Prompt in Administrative Mode by clicking Windows icon, ty
 
 **15. Repeated the invalid sign-in attempts**
 
-Submitted a deliberately incorrect password to test the configured lockout behavior.
+Next, I logged out of Client-1 as Admin, and tried to log in as a user with incorrect password to test the configured lockout behavior.
 
 ![Screenshot 15: Repeat invalid sign-in attempts](screenshots/15-repeat-invalid-sign-in-attempts.jpg)
 
 **16. Verifed the lockout error**
 
-RDP reports the account is locked after too many sign-in/password attempts.
+RDP reported the account is locked after too many sign-in/password attempts.
 
 ![Screenshot 16: Verify the lockout error](screenshots/16-verify-the-lockout-error.jpg)
 
