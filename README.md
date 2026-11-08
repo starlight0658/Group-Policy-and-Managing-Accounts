@@ -163,53 +163,51 @@ The logon was successful. Then I Run `whoami` in PowerShell and confirmed `mydom
 
 ![Screenshot 22: Verify the authenticated domain identity](screenshots/22-verify-the-authenticated-domain-identity.jpg)
 
-**23. Disabled the employee account**
-
-Used ADUC to disable the sample account for the lifecycle-management exercise.
-
-![Screenshot 25: Re-enable the employee account](screenshots/25-re-enable-the-employee-account.jpg)
-
-
-**24. Confirmed the account has been disabled**
-
-Observed the Active Directory success message for the disable action.
-
-![Screenshot 26: Verify account re-enablement](screenshots/26-verify-account-re-enablement.jpg)
-
-**25. Validated the disabled-account sign-in restriction**
-
-Captured the RDP error produced during the disabled-account access test.
-
-![Screenshot 27: Validate the disabled-account sign-in restriction](screenshots/27-validate-the-disabled-account-sign-in-restriction.jpg)
-
-**26. Re-enabled the employee account**
-
-Used the directory context menu to enable the user again.
-
-![Screenshot 28: Start the password reset workflow](screenshots/28-start-the-password-reset-workflow.jpg)
-
-**27. Verified account re-enablement**
-
-Observed the Active Directory success message for enabling the account.
-
-![Screenshot 29: Inspect password reset and unlock options](screenshots/29-inspect-password-reset-and-unlock-options.jpg)
-
-
-**28. Started the password reset workflow**
+**23. Started the password reset workflow**
 
 Located **Reset Password** for the selected employee account.
 
 ![Screenshot 23: Disable the employee account](screenshots/23-disable-the-employee-account.jpg)
 
-**29. Inspected password reset and unlock options**
-
+**24. Inspected password reset and unlock options**
 
 ![Screenshot 24: Confirm the account has been disabled](screenshots/24-confirm-the-account-has-been-disabled.jpg)
 
 
-**30. Confirmed that the user login with the new password is successful**
+**25. Confirmed that the user login with the new password is successful**
 
 ![Screenshot 30: Review the active user session](screenshots/30-review-the-active-user-session.jpg)
+
+**26. Disabled the employee account**
+
+Used ADUC to disable the sample account for the lifecycle-management exercise.
+
+![Screenshot 25: Re-enable the employee account](screenshots/25-re-enable-the-employee-account.jpg)
+
+**27. Confirmed the account has been disabled**
+
+Observed the Active Directory success message for the disable action.
+
+![Screenshot 26: Verify account re-enablement](screenshots/26-verify-account-re-enablement.jpg)
+
+**28. Validated the disabled-account sign-in restriction**
+
+Captured the RDP error produced during the disabled-account access test.
+
+![Screenshot 27: Validate the disabled-account sign-in restriction](screenshots/27-validate-the-disabled-account-sign-in-restriction.jpg)
+
+**29. Re-enabled the employee account**
+
+Used the directory context menu to enable the user again.
+
+![Screenshot 28: Start the password reset workflow](screenshots/28-start-the-password-reset-workflow.jpg)
+
+**30. Verified account re-enablement**
+
+Observed the Active Directory success message for enabling the account.
+
+![Screenshot 29: Inspect password reset and unlock options](screenshots/29-inspect-password-reset-and-unlock-options.jpg)
+
 
 ### Reviewed authentication and security audit logs
 
