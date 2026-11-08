@@ -171,10 +171,14 @@ Located **Reset Password** for the selected employee account.
 
 **24. Inspected password reset and unlock options**
 
+Typed in the New Password and pressed Ok.
+
 ![Screenshot 24: Confirm the account has been disabled](screenshots/24-confirm-the-account-has-been-disabled.jpg)
 
 
 **25. Confirmed that the user login with the new password is successful**
+
+Logged in with the new password and confirmed successfull login.
 
 ![Screenshot 30: Review the active user session](screenshots/30-review-the-active-user-session.jpg)
 
