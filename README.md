@@ -159,7 +159,7 @@ Tried again to log in with the lab user’s normal test password in Client-1.
 
 **22. Verified the authenticated domain identity**
 
-Run `whoami` in PowerShell and confirmed `mydomain\bame.siv`.
+The logon was successful. Then I Run `whoami` in PowerShell and confirmed `mydomain\bame.siv`. (Press Windows icon > type powershell > the whoami command)
 
 ![Screenshot 22: Verify the authenticated domain identity](screenshots/22-verify-the-authenticated-domain-identity.jpg)
 
