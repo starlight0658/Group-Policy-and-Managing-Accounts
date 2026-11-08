@@ -223,13 +223,13 @@ Logged in with users name and password and confirmed a successfull login.
 
 **32. Launched Windows Event Viewer**
 
-Located Event Viewer in DC-1 by typing `eventvwr.msc` in DC-1 .
+Located Event Viewer in DC-1 by typing `eventvwr.msc` in DC-1 search field at the bottom of the screen.
 
 ![Screenshot 31: Launch Windows Event Viewer](screenshots/31-launch-windows-event-viewer.jpg)
 
 **33. Inspected domain-controller security events**
 
-Opened the Security log on `DC-1`; noted logon and credential-validation activity.
+Expanded: Window Logs > Security
 
 ![Screenshot 32: Inspect domain-controller security events](screenshots/32-inspect-domain-controller-security-events.jpg)
 
