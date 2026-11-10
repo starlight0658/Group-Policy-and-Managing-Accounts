@@ -171,7 +171,7 @@ Located **Reset Password** for the selected employee account.
 
 **24. Inspected password reset and unlock options**
 
-Typed in the New Password and pressed Ok.
+Typed in the New Password in 2 fields(New Password and Confirm) and pressed Ok.
 
 ![Screenshot 24: Confirm the account has been disabled](screenshots/24-confirm-the-account-has-been-disabled.jpg)
 
