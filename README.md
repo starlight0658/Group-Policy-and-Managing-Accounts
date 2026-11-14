@@ -30,7 +30,7 @@ Configured an account-lockout policy for an Azure-hosted Active Directory test d
 
 **01. Located a sample AD employee account.**
 
-Located the generated `bame.siv` user in Active Directory Users and Computers.
+Located the generated `bame.siv` user in Active Directory Users and Computers on the server DC-1 where AD is deployed.
 
 ![Screenshot 01: Locate a sample AD employee account](screenshots/01-locate-a-sample-ad-employee-account.jpg)
 
